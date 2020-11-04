@@ -1,0 +1,31 @@
+{
+	"info": {
+		"title": "rverse",
+		"author": "rverseTeam",
+		"shortDesc": "A Miiverse clone for Nintendo 3DS.",
+		"description": "This script allows you to download the newest rverse patch.",
+		"version": 3,
+		"revision": 2
+	},
+	"Latest Release": [
+		{
+			"type": "downloadRelease",
+			"repo": "rverseTeam/rverse-Releases",
+			"file": "rverse-3ds.zip",
+			"output": "/rverse.zip",
+			"message": "Downloading the rverse package..."
+		},
+		{
+			"type": "extractFile",
+			"file": "/rverse.zip",
+			"input": "",
+			"output": "/",
+			"message": "Extracting rverse package... please wait."
+		},
+		{
+			"type": "deleteFile",
+			"file": "sdmc:/rverse.zip",
+			"message": "Deleting unneeded file."
+		}
+	]
+}
