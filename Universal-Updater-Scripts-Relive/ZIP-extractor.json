@@ -29,7 +29,7 @@
 		"description": "ZIP extractor by cooolgamer!\nrename your file to extract in\n'file.zip' on the root of your SDcard\nchoose a option!",
 		"revision": 2,
 		"shortDesc": "a simple zip manager",
-		"title": "ZIP extraxtor",
-		"version": 4
+		"title": "ZIP extractor",
+		"version": 1
 	}
 }
